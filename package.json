@@ -1,0 +1,21 @@
+{
+  "name": "showmodel",
+  "version": "1.0.0",
+  "description": "Site com o objetivo de mostrar e vender modelos 3D para jogos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Felipe Radoll Cordeiro",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.2",
+    "sequelize": "^6.37.3"
+  }
+}
