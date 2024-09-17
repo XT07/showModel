@@ -6,3 +6,47 @@
 body {
     background-color: #000;
 }
+
+nav {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid #900000;
+    clear: both;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    padding: 0px 10px 0px 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* classes */
+.colorIcon {
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    clear: both;
+}
+
+.sideMenu {
+    width: 50px;
+    float: left;
+    height: 100%;
+    color: #ffffff;
+}
