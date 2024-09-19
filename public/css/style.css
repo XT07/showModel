@@ -9,21 +9,24 @@ body {
 
 nav {
     width: 100%;
-    height: 30px;
-    margin-bottom: 20px;
+    height: 60px;
     background-color: #000;
     color: #fff;
     border-bottom: 1px solid #900000;
     clear: both;
+    z-index: 999;
 }
 
 nav ul {
     list-style: none;
     float: right;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 nav ul li {
     padding: 0px 10px 0px 10px;
+    display: inline-block;
 }
 
 nav a {
@@ -33,6 +36,13 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    color: #900000;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+}
 
 /* classes */
 .colorIcon {
@@ -45,8 +55,26 @@ nav a {
 }
 
 .sideMenu {
-    width: 50px;
+    width: 170px;
     float: left;
-    height: 100%;
+    height: calc(100vh - 71px);
+    top: 60px;
     color: #ffffff;
+    border-right: 1px solid #900000;
+    padding: 10px 0px 0px 10px;
+}
+
+.sideMenu h2 {
+    
+}
+
+.logo {
+    max-width: 60px;
+    max-height: 60px;
+    float: left;
+}
+
+.title2 {
+    color: #ffffff;
+    margin: 0;
 }
